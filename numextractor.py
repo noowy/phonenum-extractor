@@ -15,7 +15,7 @@ def printExtractedNums(filename):
 	code_re = re.compile(pattern)
 	pattern = r"(?:(?:\s|\(|\s\()([0-9]{3})(?:\s|\))|([0-9]{3}))"
 	code_dict_re = re.compile(pattern)
-	phone_codes = unicode(open("C:\\Homemade Software\\Python\\phone_codes.txt").read())
+	phone_codes = unicode(open("phone_codes.txt").read())
 	output_string1 = u""
 	output_string2 = u""
 	start_pos = 29
